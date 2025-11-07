@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<body>
+  <table border="0" id="user"></table>
+
+  <script>
+    let name = prompt("Enter your name:");
+    let age = prompt("Enter your age:");
+    let status;
+
+    if (age > 18) {
+      status = "Eligible";
+    } else {
+      status = "Not Eligible";
+    }
+    document.getElementById("user").innerHTML =
+      "<tr>  <th>Name</th><th>Age</th> <th>Status</th> </tr>" +
+      "<tr> <td> "+ name +" </td><td> "+ age +" </td> <td>"+ status +" </td> </tr>"
+  </script>
+</body>
+</html>

@@ -1,0 +1,31 @@
+<html>
+    <body>
+    <script>
+      var str = "Hello JavaScript"; 
+      document.write("Original String: " + str + "<br>");
+       document.write("Length: " + str.length + "<br><br>");
+
+
+        document.write("charAt(1): " + str.charAt(1) + "<br>");
+    document.write("charCodeAt(1): " + str.charCodeAt(1) + "<br>");
+    document.write("at(-1): " + str.at(-1) + "<br>");
+    document.write("toUpperCase(): " + str.toUpperCase() + "<br>");
+    document.write("toLowerCase(): " + str.toLowerCase() + "<br>");
+    document.write("indexOf('Java'): " + str.indexOf("Java") + "<br>");
+    document.write("lastIndexOf('a'): " + str.lastIndexOf("a") + "<br>");
+    document.write("includes('Script'): " + str.includes("Script") + "<br>");
+    document.write("startsWith('Hello'): " + str.startsWith("Hello") + "<br>");
+    document.write("endsWith('JavaScript'): " + str.endsWith("JavaScript") + "<br>");
+    document.write("substring(0,5): " + str.substring(0,5) + "<br>");
+    document.write("slice(6,16): " + str.slice(6,16) + "<br>");
+    document.write("substr(6,4): " + str.substr(6,4) + " (deprecated but still works)<br>");
+    document.write("replace('JavaScript','World'): " + str.replace("JavaScript","World") + "<br>");
+    document.write("concat(' is fun!'): " + str.concat(" is fun!") + "<br>");
+    document.write("repeat(2): " + str.repeat(2) + "<br>");
+    document.write("trim(): " + ('   Hello   '.trim()) + "<br>");
+    document.write("split(' '): " + str.split(" ") + "<br>");
+    document.write("padStart(20,'*'): " + str.padStart(20,"*") + "<br>");
+    document.write("padEnd(20,'-'): " + str.padEnd(20,"-") + "<br>");
+    </script>
+    </body>
+</html>
